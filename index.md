@@ -1,11 +1,52 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hi, my name is Forty'
-description: null
+landing-title: 'Hi, my name is Ke Xu'
+description: 'null'
 image: null
-author: null
+author: Ke Xu
 show_tile: false
 ---
 
-Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.
+<section>
+
+    <div class="contact-method">
+        <span class="icon alt fa-envelope"></span>
+        <h3>Email</h3>
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    </div>
+</section>
+
+<section>
+
+    <div class="contact-method">
+        <span class="icon alt fa-phone"></span>
+        <h3>Phone</h3>
+        <a href="tel:{{ site.phone }}">{{ site.phone }}</a>
+    </div>
+</section>
+
+<section>
+
+    <div class="contact-method">
+        <span class="icon alt fa-home"></span>
+        <h3>Address</h3>
+        <span>
+        {% if site.street_address %}
+            {{ site.street_address }}<br />
+        {% endif %}
+        {% if site.city %}
+            {{ site.city }},
+        {% endif %}
+        {% if site.state %}
+            {{ site.state }} 
+        {% endif %}
+        {% if site.zip_code %}
+            {{ site.zip_code }}<br />
+        {% endif %}
+        {% if site.country %}
+            {{ site.country }}
+        {% endif %}
+        </span>
+    </div>
+</section>
