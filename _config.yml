@@ -4,8 +4,8 @@ subtitle: A personal website for Ke Xu
 email: xuke695615201@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   a dedicated Communications researcher with a background in electrical engineering.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
-url: https://kexu.github.io # the base hostname & protocol for your site
+baseurl:  # the subpath of your site, e.g. /blog
+url:  # the base hostname & protocol for your site
 author: Ke Xu
 street_address: Xinmofan Road No.66
 city: Nanjing
