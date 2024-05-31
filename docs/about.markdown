@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Still developing!!!
+This is my <a href="https://hide-on-bush-xk.github.io//assets/pdf/resume.pdf">CV</a>.

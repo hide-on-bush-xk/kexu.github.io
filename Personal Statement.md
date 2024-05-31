@@ -16,8 +16,9 @@ nav-menu: true
 		<header class="major">
 			<h2>Education</h2>
 		</header>
-		<p>I am a MPhill candidate in Electric & Computer Engineering at Nanjing University of Posts and Telecommunications (NJUPT). I am currently in National Engineering Research Center of Communications & Networking working with
+		<p>I am a MPhill candidate in Information & Communication Engineering at Nanjing University of Posts and Telecommunications (NJUPT). I am currently in National Engineering Research Center of Communications & Networking working with
 		<a href="https://ieeexplore.ieee.org/author/37277724400">Prof. Youyun Xu</a> (Senior Member, IEEE).
+		<p>This is my <a href="https://hide-on-bush-xk.github.io//assets/pdf/resume.pdf">CV</a>.</p>
 		</p>
 	</div>
 </section>
